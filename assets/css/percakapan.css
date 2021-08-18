@@ -1,0 +1,53 @@
+.balon-a{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  background-color: #35C2EA;
+  color: #fff;
+  width: auto;
+  min-width: 400px;
+  max-width: 700px;
+  margin-bottom: 5px;
+}
+.balon-b{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  background-color: #E6E7E7;
+  width: auto;
+  min-width: 400px;
+  max-width: 700px;
+  margin-bottom: 5px;
+}
+.balon-jam{
+  font-size: 12px;
+  font-style: italic;
+  color: #9C9C9C;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.balon-jam-left{
+  font-size: 12px;
+  font-style: italic;
+  color: #9C9C9C;
+  text-align: left;
+  padding-left:20px;
+  padding-bottom: 10px;
+}
+.balon-jam-right{
+  font-size: 12px;
+  font-style: italic;
+  color: #9C9C9C;
+  text-align: right;
+  padding-right:20px;
+  padding-bottom: 10px;
+}
+.waktu-percakapan{
+  font-size: 12px;
+  font-style: italic;
+  color: #A4A4A4
+}

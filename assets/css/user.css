@@ -1,0 +1,320 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url('../fonts/roboto/Roboto-Italic.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/roboto/Roboto-Bold.ttf');
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid #333; */
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #F8F9FA;
+    font-family: Roboto-Regular;
+    color: #929497;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto-Bold, sans-serif;
+}
+
+p {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+b,
+strong,
+label,
+th,
+.t-bold {
+    font-weight: normal;
+    font-family: Roboto-Medium;
+}
+
+i {
+    font-family: Roboto-Italic, sans-serif;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ NAVBAR ]*/
+
+.navbar-default {
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    color: #929497 !important;
+}
+
+.container {
+    width: 90%;
+}
+
+.navbar-brand {
+    font-family: Roboto-Bold;
+    margin-right: 50px;
+    color: #929497 !important;
+}
+
+.logo-brand {
+    margin-top: 3px;
+    height: 40px;
+}
+
+.navbar-nav {
+    font-family: Roboto-Medium;
+}
+
+.navbar-nav>li>a {
+    color: #07ADDC !important;
+}
+
+.navbar-nav>li>a:hover {
+    color: #929497 !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Konten ]*/
+
+.breadcrumb {
+    background-color: #F8F9FA;
+    padding: 0;
+}
+
+.container-konten {
+    margin-top: 70px;
+    min-height: 55%;
+    margin-bottom: 5%;
+}
+
+
+.home-left {
+    padding-bottom: 2%;
+}
+
+.home-left>h3 {
+    color: #07ADDC;
+}
+
+.home-right {
+    padding: 0 10%;
+}
+
+.panel-default {
+    border: none;
+}
+
+.panel-default .panel-heading {
+    background-color: #fff;
+    border-bottom: .5px solid rgb(233, 233, 233);
+    color: #07ADDC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel-default .panel-heading .panel-title {
+    font-family: Roboto-Bold, sans-serif;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Modal ]*/
+
+.modal-title {
+    color: #0496BF !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Form ]*/
+
+.form-control,
+.chosen-select {
+    cursor: pointer !important;
+}
+
+.form-control:focus,
+.chosen-select:focus {
+    cursor: text !important;
+    border-color: #07ADDC !important;
+}
+
+.form-control[readonly]:focus {
+    cursor: pointer;
+}
+
+.input-group .form-control,
+.chosen-select {
+    /*border-radius: 4px !important;*/
+    box-shadow: none !important;
+}
+
+.proses {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 300px
+}
+
+.header-user {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FOOTER ]*/
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #07ADDC;
+    color: #fff;
+    padding: 1% 0;
+}
+
+footer p,
+footer a {
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer hr {
+    border: .5px solid rgb(9, 154, 194);
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ CUSTOM BUTTON ]*/
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #07ADDC;
+    border-color: #0496BF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #0695BD;
+    border-color: #0496BF;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #07ADDC;
+    border-color: #0496BF;
+}
+
+.btn-primary .badge {
+    color: #07ADDC;
+    background-color: #ffffff;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Stempel Lunas ]*/
+
+.stempel-lunas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../images/lunas.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.img-lunas {
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESPONSIVE ]*/
+
+@media (max-width: 768px) {
+    .home-left {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-left {
+        padding-top: 5%;
+    }
+}
